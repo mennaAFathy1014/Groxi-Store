@@ -1,0 +1,67 @@
+/*contact*/
+.contact-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block:3.75rem ;
+}
+.contact-us .container{
+    display: flex;
+    justify-content: center;
+}
+.contact-us form {
+    padding: 2.5rem 1.5rem;
+    background-color: var(--main-background);
+
+}
+.contact-us form  input{
+    padding: 0.5rem;
+    border: none;
+    margin: 0.5rem;
+    margin-inline-start: 0;
+    color: var(--primary-paragraph);
+}.contact-us form  input:focus,
+.contact-us form  textarea:focus{
+    outline: none;
+}
+.contact-us form textarea{
+    width: 100%;
+    border: none;
+}
+.contact-us form .send{
+    cursor: pointer;
+    margin-block-start: 1rem;
+    background-color: var(--main-color);
+    padding: 0.9rem;
+    color: white;
+}
+.contact-us .reach-us{
+    width: 18.75rem;
+    padding: 1.25rem;
+    color: white;
+    background-color: var(--main-color);
+}
+.contact-us .reach-us p{
+    width: 12.5rem;
+}
+.contact-us .reach-us ul{
+    padding-block-start: 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.contact-us .reach-us ul li{
+    display: flex;
+    align-items: center;
+    padding-block: 1.25rem;
+}
+.contact-us .reach-us ul li i{
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+.contact-us .reach-us ul li span{
+    font-size: .8rem;
+}
+iframe{
+    width: 100%;
+    height: 25rem;
+}
