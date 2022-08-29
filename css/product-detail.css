@@ -1,0 +1,549 @@
+*{
+    box-sizing: border-box;
+}
+.product-details{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.product-details .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+.product-details aside{
+    padding-inline: 1.205rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+}
+.product-details aside button{
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: var(--main-color);
+    padding-block: 0.2rem;
+}
+.product-details aside .imgs{
+    display: flex;
+    flex-direction: column;
+    padding-block: 1.25rem;
+}
+.product-details aside .imgs img{
+    padding-block-end: 0.9375rem;
+    width: 4.5rem;
+    cursor: pointer;
+}
+.product-details aside .imgs img:last-child{
+    padding-block-end: 0;
+}
+.product-details .container .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-background);
+}
+.product-details .container .img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-background);
+    height: 27rem;
+}
+
+.details{
+    /* padding-inline-start:2.5rem ; */
+    padding: 1.25rem;
+}
+.details h2{
+    font-size: 1.5rem;
+}
+.details .stars i{
+    font-size: 0.8rem;
+    padding-block-end: 1rem;
+}
+.prices .price{
+    color: var(--primary-paragraph);
+    text-decoration: line-through;
+}
+.prices .offer{
+    color: var(--main-color);
+    font-size: 1.25rem;
+}
+div.add{
+    display: flex;
+    padding-block: 1rem;
+    align-items: center;
+}
+div.add .counter{
+    display: flex;
+    margin-inline-end: 0.75rem;
+}
+div.add .counter>span{
+    padding-block: .2rem;
+    padding-inline: 0.75rem;
+    color: var(--primary-paragraph);
+    border: 0.01rem solid var(--primary-paragraph);
+}
+button.add{
+    padding-block: 0.5rem;
+    padding-inline: 0.75rem;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    font-size: 0.6rem;
+}
+.overview{
+    width: 21.75rem;
+}
+.overview h2{
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.overview p{
+    color: var(--primary-paragraph);
+}
+.share{
+    display: flex;
+    padding-block: 1.25rem;
+    align-items: center;
+}
+.share .icons{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.details h2{
+    font-size: 2rem;
+}
+.details .services {
+    width: 100%;
+    display: flex;
+}
+.details .services .serv{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid var(--main-background);
+}
+.details .services .serv:first-child{
+    margin-inline-end: 1.25rem;
+
+}
+.details .services .serv img{
+    width: 2rem;
+}
+
+.share h2{
+    font-size: 1rem;
+}
+.share i{
+
+    font-size: .8rem;
+}
+.share a{
+    padding: 0.5rem;
+}
+@media (max-width:65rem) {
+    .product-details aside{
+        flex-direction: row;
+        position: relative;
+    }
+    .product-details aside button:nth-of-type(2){
+        position: absolute;
+        width: 4rem;
+        top: 2.5rem;
+        left: -1.5rem;
+        transform: rotateZ(90deg);
+        border: none;
+        color: white;
+        background-color: var(--main-color);
+        padding-inline: 0.2rem;
+        -webkit-transform: rotateZ(90deg);
+        -moz-transform: rotateZ(90deg);
+        -ms-transform: rotateZ(90deg);
+        -o-transform: rotateZ(90deg);
+    }
+    .product-details aside button:nth-of-type(1){
+        position: absolute;
+        width: 4rem;
+        top: 2.5rem;
+        right: -1.5rem;
+        transform: rotateZ(90deg);
+        border: none;
+        color: white;
+        background-color: var(--main-color);
+        padding-inline: 0.2rem;
+        -webkit-transform: rotateZ(90deg);
+        -moz-transform: rotateZ(90deg);
+        -ms-transform: rotateZ(90deg);
+        -o-transform: rotateZ(90deg);
+    }
+    .product-details aside .imgs{
+        display: flex;
+        flex-direction: row;
+        padding-inline: 1.25rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-details aside .imgs img{
+        padding-block-end: 0;
+        margin-inline: 0.9875rem;
+    }
+}
+@media (max-width:48rem){
+    .container{
+        width: 100%;
+    }
+    .product-details aside{
+        padding-inline: 1.205rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-details aside .imgs{
+        display: flex;
+        flex-direction: column;
+        padding-block: 1.25rem;
+    }
+    .product-details aside .imgs img{
+        padding-block-end: 0.9375rem;
+        width: 4.5rem;
+        cursor: pointer;
+    }
+    .product-details aside .imgs img:last-child{
+        padding-block-end: 0;
+    }
+    .product-details aside button:nth-of-type(2){
+        position:static;
+        width: 4rem;
+        transform: rotateZ(0deg);
+        border: none;
+        color: white;
+        background-color: var(--main-color);
+        padding-inline: 0.2rem;
+        -webkit-transform: rotateZ(0deg);
+        -moz-transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -o-transform: rotateZ(0deg);
+    }
+    .product-details aside button:nth-of-type(1){
+        position:static;
+        width: 4rem;
+        top: 0;
+        left: 0;
+        transform: rotateZ(0deg);
+        border: none;
+        color: white;
+        background-color: var(--main-color);
+        padding-inline: 0.2rem;
+        -webkit-transform: rotateZ(0deg);
+        -moz-transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -o-transform: rotateZ(0deg);
+    }
+    .product-details .container .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--main-background);
+    }
+    .product-details .container .img img{
+        width: 18.75rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--main-background);
+    }
+}
+@media (max-width:33.75rem) {
+    .container{
+        width: 100%;
+        padding-inline: 0.2rem;
+    }
+    .product-details aside{
+        width: 100%;
+        padding-inline: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 0;
+    }
+    .product-details aside .imgs{
+        display: flex;
+        flex-direction: row;
+        padding-inline: 0;
+        flex-wrap: wrap;
+    }
+    .product-details aside .imgs img{
+        padding-block-end: 0.9375rem;
+        padding-inline: 0;
+        width: 3rem;
+        cursor: pointer;
+    }
+    .product-details aside .imgs img:last-child,
+    .product-details aside .imgs img:nth-of-type(4){
+        display: none;
+    }
+    .product-details aside button:nth-of-type(1){
+        padding-inline: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: rotateZ(-90deg);
+        -webkit-transform: rotateZ(-90deg);
+        -moz-transform: rotateZ(-90deg);
+        -ms-transform: rotateZ(-90deg);
+        -o-transform: rotateZ(-90deg);
+    }
+    .product-details aside button:nth-of-type(2){
+        padding-inline: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: rotateZ(-90deg);
+        -webkit-transform: rotateZ(-90deg);
+        -moz-transform: rotateZ(-90deg);
+        -ms-transform: rotateZ(-90deg);
+        -o-transform: rotateZ(-90deg);
+    }
+    .details{
+        padding-inline: 0;
+        width: 100%;
+        margin: 0;
+        
+    }
+    .details,
+    .overview,
+    .share{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .details h2{
+        width: 18.75rem;
+        font-size: 1.5rem;
+    }
+    .details p{
+        width: 18.75rem;
+        margin-inline: 0;
+        padding-inline: 0;
+    }
+    .overview{
+        width: 100%;
+    
+    }
+    .share,
+    .services{
+        flex-wrap: wrap;
+    }
+    
+}
+/*detailed section*/
+
+.detailed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detailed .container{
+    padding-inline: 3.75rem;
+}
+.detailed ul li a{
+    padding: 1rem;
+}
+.detailed ul{
+    padding-block: 1rem;
+    border-block-end: 0.2rem solid var(--main-background);
+}
+.detailed ul li:nth-child(1) a{
+    padding-inline-start: 0;
+    border-block-end: 0.2rem solid var(--main-color);
+}
+.detailed .container p{
+    color: var(--primary-paragraph);
+}
+.detailed .container p:nth-of-type(1){
+    padding-block: 1.25rem;
+}
+
+/*related*/
+.related{
+    padding: 3.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.related .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+.related .container h2{
+    padding-block: 2.5rem;
+}
+.related .container .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.related .container .items .item{
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--main-background);
+    padding: 1.25rem;
+    position: relative;
+    margin: 1rem;
+}
+.related .container .items .item .fav-icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0.5rem 0.7rem;
+    color: var(--primary-paragraph);
+    font-size: 1.5rem;
+}
+.related .container .items .item .stars i{
+    font-size: 0.8rem;
+}
+.related .container .items .item .stars{
+    padding-block-end: 1rem;
+}
+.related .container .items .item img{
+    height: 10rem;
+}
+.related .container .items .item h3{
+    padding-block-end: 0.4rem;
+}
+.related .container .items .item .prices{
+    padding-block-end: 0.4rem;
+}
+.related .container .items .item .prices .price,
+.related .container .items .item .prices .offer{
+    font-size: 1rem;
+    margin-inline: 0.4rem;
+}
+
+@media (max-width:36rem){
+    .detailed ul{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .detailed p {
+        font-size: 0.8rem;
+    }
+    .detailed ul li a{
+        padding: 0.5rem;
+    }
+}
+@media (max-width:27rem) {
+    .detailed ul{
+        width: 100%;
+        font-size: 0.7rem;
+    }
+}
+/*testimonials*/
+.testimonials{
+    font-family: var(--sec-font);
+    padding-block: 3.75em;
+    display: flex;
+    justify-content: center;
+}
+.testimonials h3{
+    font-family: dm-serif-text;
+}
+.testimonials .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials .heading{
+    text-align: center;
+    padding-block-end: 2em;
+}
+.testimonials .heading p{
+    color: var(--main-color);
+    text-align: center;
+}
+.testimonials .heading h2{
+    font-family: var(--main-font);
+}
+.testimonials .qoutes{
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+.testimonials .qoutes .qout{
+    padding: 2.5em;
+    font-size: 1.25em;
+    background-color: var(--main-background);
+    border-block-start: 0.2em solid var(--main-color);
+
+}
+.testimonials .qoutes .qout h3{
+    color: var(--main-color);
+    font-size: 5em;
+    
+}
+.testimonials .qoutes .qout q{
+    color: var(--primary-paragraph); 
+    padding-block: 2em;
+}
+.testimonials .qoutes .qout .stars{
+    font-size: 0.6em;
+    padding-block: 2em;
+}
+.testimonials .qoutes .qout h4{
+    display: inline-block;
+    font-size: 0.8em;
+}
+.testimonials .qoutes .qout span{
+    font-size: 0.6em;
+    color: var(--main-color);
+}
+@media (max-width:62em) {
+    .testimonials .container{
+        width: 100%;
+    }
+    .testimonials .headingp{
+        font-size: 0.8em;
+    }
+    .testimonials .heading h2{
+        font-size: 1em;
+    }
+    .testimonials .qoutes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonials .qoutes .qout{
+        width: 15em;
+        padding-block: 1em;
+    }
+    .testimonials .qoutes .qout h3{
+        font-size: 3.75em;
+    }
+    .testimonials .qoutes .qout q{
+        font-size: 0.8em;
+    }
+}
