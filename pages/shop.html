@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- main css file -->
+    <link rel="stylesheet" href="../css/header&footer.css">
+    <link rel="stylesheet" href="../css/shop.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&family=Jost:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <title>GROXI STORE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../images/logo.png" alt="logo ecommerce">
+            </div>
+            <nav>
+                <ul class="links">
+                    <li><a  href="../home.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a class="active" href="./shop.html">Shop</a></li>
+                    <li><a href="./pages.html">Pages</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <ul class="icons">
+                    <li><i class="fas fa-regular fa-magnifying-glass"></i></li>
+                    <li><i class="fa-solid fa-user-large"></i></li>
+                    <li><i class="fa-solid fa-heart"></i></li>
+                    <li><i class="fa-solid fa-cart-shopping"></i></li>
+                </ul>
+                <i class="fas fa-thin fa-bars bars"></i>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="header-about">
+            <div class="container-card">
+                <div class="text">
+                    Home 
+                    <i class="fas fa-light fa-arrow-right"></i>
+                    About
+                </div>
+                <h1>SHOP</h1>
+            </div>
+        </section>
+        <section class="products-show">
+            <div class="container">
+                <div class="heading">
+                    <div class="search-box">
+                        <div class="box">
+                            <input type="text" aria-label="search" placeholder="Search">
+                            <i class="fas fa-regular fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="sorting">
+                        <div class="icon">
+                            <i class="fa-brands fa-microsoft"></i>
+                            <i class="fa-solid fa-list"></i>
+                            <span>Showing 1-18 of 24 results</span>
+                        </div>
+                        <div class="default-sorting">
+                            <select name="default-sorting" id="default-sorting">
+                                <option value="default">Default Sorting</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-container">
+                    <aside>
+                        <ul>
+                            <li><h2>Categories</h2></li>
+                            <li>
+                                <span class="check"></span>
+                                <span class="cate">Beverage</span>
+                            </li>
+                            <li>
+                                <span class="check"></span>
+                                <span class="cate">Biscuits, Snacks</span>
+                            </li>
+                            <li>
+                                <span class="check"></span>
+                                <span class="cate">Breakfast & Dairy</span>
+                            </li>
+                            <li>
+                                <span class="check"></span>
+                                <span class="cate">Fruits & Vegetables</span>
+                            </li>
+                            <li>
+                                <span class="check"></span>
+                                <span class="cate">Home Neeads</span>
+                            </li>
+                            <li>
+                                <span class="check"></span>
+                                <span class="cate">Grocery & Staples</span>
+                            </li>
+                            <li>
+                                <span class="check"></span>
+                                <span class="cate">Home & Kitchen</span>
+                            </li>
+                            <li>
+                                <span class="check"></span>
+                                <span class="cate">Household Needs</span>
+                            </li>
+                            <li>
+                                <span class="check"></span>
+                                <span class="cate">Meats, Frozen</span>
+                            </li>
+                            <li>
+                                <span class="check"></span>
+                                <span class="cate">Noodles, Sauces</span>
+                            </li>
+                            <li>
+                                <span class="check"></span>
+                                <span class="cate">Personal Care</span>
+                            </li>
+                            <li>
+                                <span class="check"></span>
+                                <span class="cate">Pet Care</span>
+                            </li>
+                        </ul>
+                        <div class="filter">
+                            <h2>Filter By Price</h2>
+                            <div class="roler"></div>
+                            <div class="filter-price">
+                                <div class="filter">
+                                    <span>Filter</span>
+                                    <i class="fas fa-light fa-arrow-right"></i>
+                                </div>
+                                <div class="prc">Price $10-$90</div>
+                            </div>
+                        </div>
+                        <div class="trending-items">
+                            <h2>Trending Items</h2>
+                            <div class="items">
+                                <div class="item">
+                                    <img src="../images/mango-beverage.png" alt="mango-beverage">
+                                    <div class="content">
+                                        <h3>Mango Beverage</h3>
+                                        <div class="prices">
+                                            <span class="price">$22</span>
+                                            <span class="offer">$18</span>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="../images/beef-steak.png" alt="mango-beverage">
+                                    <div class="content">
+                                        <h3>Beef Steak</h3>
+                                        <div class="prices">
+                                            <span class="price">$22</span>
+                                            <span class="offer">$18</span>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="../images/broccoli.png" alt="mango-beverage">
+                                    <div class="content">
+                                        <h3>Broccoli</h3>
+                                        <div class="prices">
+                                            <span class="price">$22</span>
+                                            <span class="offer">$18</span>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="../images/strawberries.png" alt="mango-beverage">
+                                    <div class="content">
+                                        <h3>Strawberries</h3>
+                                        <div class="prices">
+                                            <span class="price">$22</span>
+                                            <span class="offer">$18</span>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="../images/body-lotion.png" alt="mango-beverage">
+                                    <div class="content">
+                                        <h3>Body Lotion</h3>
+                                        <div class="prices">
+                                            <span class="price">$22</span>
+                                            <span class="offer">$18</span>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <button>
+                                <span>VIEW MORE</span>
+                                <i class="fas fa-light fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </aside>
+                    <div class="products">
+                        <div class="cards">
+                            <div class="card">
+                                <div class="fav-icon">
+                                    <i class="fa-brands fa-gratipay"></i>
+                                </div>
+                                <div class="img">
+                                    <img src="../images/beef-steak.png" alt="">
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="info">
+                                    <h3>Beef Steak</h3>
+                                    <div class="prices">
+                                        <span class="price">$15</span>
+                                        <span class="offer">$12</span>
+                                    </div>
+                                    <button class="add">ADD TO CART</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="fav-icon">
+                                    <i class="fa-brands fa-gratipay"></i>
+                                </div>
+                                <div class="img">
+                                    <img src="../images/broccoli.png" alt="">
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="info">
+                                    <h3>Broccoli</h3>
+                                    <div class="prices">
+                                        <span class="price">$18</span>
+                                        <span class="offer">$15</span>
+                                    </div>
+                                    <button class="add">ADD TO CART</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="fav-icon">
+                                    <i class="fa-brands fa-gratipay"></i>
+                                </div>
+                                <div class="img">
+                                    <img src="../images/strawberries.png" alt="">
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="info">
+                                    <h3>Strawberries</h3>
+                                    <div class="prices">
+                                        <span class="price">$20</span>
+                                        <span class="offer">$18</span>
+                                    </div>
+                                    <button class="add">ADD TO CART</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="fav-icon">
+                                    <i class="fa-brands fa-gratipay"></i>
+                                </div>
+                                <div class="img">
+                                    <img src="../images/fresh-honey.png" alt="">
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="info">
+                                    <h3>Fresh Honey</h3>
+                                    <div class="prices">
+                                        <span class="price">$30</span>
+                                        <span class="offer">$25</span>
+                                    </div>
+                                    <button class="add">ADD TO CART</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="fav-icon">
+                                    <i class="fa-brands fa-gratipay"></i>
+                                </div>
+                                <div class="img">
+                                    <img src="../images/fresh-milk.png" alt="">
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="info">
+                                    <h3>Fresh Milk</h3>
+                                    <div class="prices">
+                                        <span class="price">$35</span>
+                                        <span class="offer">$20</span>
+                                    </div>
+                                    <button class="add">ADD TO CART</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="fav-icon">
+                                    <i class="fa-brands fa-gratipay"></i>
+                                </div>
+                                <div class="img">
+                                    <img src="../images/fresh-bread.png" alt="fresh-bread">
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="info">
+                                    <h3>Fresh Bread</h3>
+                                    <div class="prices">
+                                        <span class="price">$15</span>
+                                        <span class="offer">$12</span>
+                                    </div>
+                                    <button class="add">ADD TO CART</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="fav-icon">
+                                    <i class="fa-brands fa-gratipay"></i>
+                                </div>
+                                <div class="img">
+                                    <img src="../images/red-pepper.png" alt="red-pepper">
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="info">
+                                    <h3>Red Pepper</h3>
+                                    <div class="prices">
+                                        <span class="price">$20</span>
+                                        <span class="offer">$15</span>
+                                    </div>
+                                    <button class="add">ADD TO CART</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="fav-icon">
+                                    <i class="fa-brands fa-gratipay"></i>
+                                </div>
+                                <div class="img">
+                                    <img src="../images/dozen-eggs.png" alt="">
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="info">
+                                    <h3>Dozzen Eggs</h3>
+                                    <div class="prices">
+                                        <span class="price">$15</span>
+                                        <span class="offer">$12</span>
+                                    </div>
+                                    <button class="add">ADD TO CART</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="fav-icon">
+                                    <i class="fa-brands fa-gratipay"></i>
+                                </div>
+                                <div class="img">
+                                    <img src="../images/cooking-oil.png" alt="">
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="info">
+                                    <h3>Cooking Oil</h3>
+                                    <div class="prices">
+                                        <span class="price">$20</span>
+                                        <span class="offer">$15</span>
+                                    </div>
+                                    <button class="add">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button><i class="fas fa-light fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="container">
+                <div class="heading">
+                    <p>Testimonails</p>
+                    <h2>What Our Customers Saying</h2>
+                </div>
+                <div class="qoutes">
+                    <div class="qout">
+                        <h3>“</h3>
+                        <q>
+                            <i>
+                            Quisquam est, qui dolorem ipsum quia dolor sit
+                            consectetur adipisci velit sed quia non numqua
+                            eius modi tempora incidunt ut labore et dolore 
+                            magnam aliquam quaerat voluptatem repudia
+                            sint et molestiae
+                            </i>
+                        </q>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4>Alina Parker</h4>
+                        <span>Ceo, GTD</span>
+                    </div>
+                    <div class="qout">
+                        <h3>“</h3>
+                        <q>
+                            <i>
+                                Exercitationem ullam corporis suscipit laborio
+                                nisi ut aliquid ex ea commodi consequatur uis 
+                                autem vel eum iure reprehenderit qui in ea vou
+                                velit esse quam nihil molestiae consequatur,
+                                vel illum qui dolorem eum fugiat
+                            </i>
+                        </q>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4>Kevin Andrew</h4>
+                        <span>Manager, Rex</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="subscribe">
+                <div class="logos">
+                    <img src="../images/logo-one.png" alt="">
+                    <img src="../images/logo-two.png" alt="">
+                    <img src="../images/logo-three.png" alt="">
+                    <img src="../images/logo-four.png" alt="">
+                </div>
+                <div class="subscribtion">
+                    <img src="../images/footer-basket.png" alt="footer img" class="basket">
+                    <div class="form">
+                        <h3>Subscribe to our Newsletter</h3>
+                        <form action="">
+                            <input type="text" placeholder="Enter your email" aria-label="email subscribe">
+                            <button type="submit">SUBSCRIBE NOW</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-lists">
+                <div class="lists">
+                    <ul>
+                        <li><h3>Store Location</h3></li>
+                        <li>Address:</li>
+                        <li>121 King Street Melbourne,300,Australia</li>
+                        <li><a>Email:</a></li>
+                        <li><a>info@grokistore.com</a></li>
+                        <li><a>Phone:</a></li>
+                        <li><a>+1 23 45 6789</a></li>
+                    </ul>
+                    <ul>
+                        <li><h3>Useful Links</h3></li>
+                        <li><a>About us</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Check out</a></li>
+                        <li><a>Contact</a></li>
+                        <li><a>Service</a></li>
+                        <li><a>Shop</a></li>
+                    </ul>
+                    <ul>
+                        <li><h3>Categories</h3></li>
+                        <li><a>Fruits & Vegetables</a></li>
+                        <li><a>Diary Products</a></li>
+                        <li><a>Package Foods</a></li>
+                        <li><a>Beverage</a></li>
+                        <li><a>Health & Wellness</a></li>
+                        <li><a>Meat Varieties</a></li>
+                    </ul>
+                    <ul>
+                        <li>Monday - Saturday</li>
+                        <li>12.00 - 14.45</li>
+                        <li>Sunday - Thursday</li>
+                        <li>17.30 - 00.00</li>
+                        <li>Friday - Saturday</li>
+                        <li>17.30 - 00.00</li>
+                    </ul>
+                </div>
+                <div class="footer-copy">
+                    <div class="copy">
+                        <p>Copyright © 2020 Groki Store. All rights reserved.</p>
+                    </div>
+                    <div class="social">
+                        <span>Follow Us:</span>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
