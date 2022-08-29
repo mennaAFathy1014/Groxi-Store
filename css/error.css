@@ -1,0 +1,74 @@
+.error{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 15rem 5rem;
+}
+.error .container{
+    border-block-start: 0.2rem solid var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.error .container img{
+    width: 22rem;
+}
+
+.error .container .content{
+    padding-inline-start: 5rem;
+}
+.error .container h1{
+    font-size: 5rem;
+}
+.error .container p{
+    padding-block: 1.25rem;
+    width: 18.75rem;
+
+}
+.error .container .couldnot{
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+.error .container p:nth-of-type(2){
+    color: var(--primary-paragraph);
+}
+button{
+    color: white;
+    padding: 1rem;
+    background-color: var(--main-color);
+}
+@media (max-width:67.5rem) {
+    .error .container img{
+        width: 20rem;
+    }    
+    .error .container h1{
+        font-size: 4rem;
+    }
+    .error .container p{
+        padding-block: 1.25rem;
+        width: 15rem;
+    
+    }
+    .error .container .couldnot{
+        color: var(--main-color);
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:62rem) {
+    .error .container{
+        width: 100%;
+        padding: 2rem;
+    }
+    .error .container .content{
+        padding-inline-start: 0rem;
+    }
+}
+@media (max-width:36rem) {
+    .error .container{
+        width: 100%;
+    }
+
+}
