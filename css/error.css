@@ -5,6 +5,9 @@
     align-items: center;
     justify-content: center;
     padding-block: 15rem 5rem;
+    background: url(../images/about-bg.png) no-repeat center center;
+    left: 0;
+    background-size: cover;
 }
 .error .container{
     border-block-start: 0.2rem solid var(--main-color);
