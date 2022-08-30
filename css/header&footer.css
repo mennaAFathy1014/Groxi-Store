@@ -59,6 +59,7 @@ header i,
 nav {
     display: flex;
     gap: 1rem;
+    /* position: relative; */
 }
 ul{
     display: flex;
@@ -124,6 +125,30 @@ i:hover{
     .icons {
         padding-block: 1rem;
     }
+}
+nav>ul.links.display{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    flex-wrap: wrap;
+    top: 5rem;
+    left: 0;
+    background-color:white;
+}
+nav>ul.links.display li {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    min-height: 2rem;
+}
+nav>ul.links.display li a{
+    width: 100%;
+    height: 4rem;
+}
+nav>ul.links.display li:hover a{
+    border-block-end: 0.2rem solid var(--main-color);
 }
 
 .header-about{
